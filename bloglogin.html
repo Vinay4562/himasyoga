@@ -285,8 +285,8 @@ button:active {
                     // Increment the blog count
                     incrementBlogCount();
 
-                    Redirect to index.html if needed
-                    window.location.href = 'file:///C:/Users/HP/Desktop/yoga website/index.html';
+                    // Redirect to index.html if needed
+                    // window.location.href = 'file:///C:/Users/HP/Desktop/yoga website/index.html';
                 };
 
                 // Read the contents of the image file as a data URL
@@ -398,11 +398,9 @@ button:active {
 
             // Function to handle logout
             function handleLogout() {
-                // Assuming you want to display an alert for demonstration purposes
+                console.log('Logout function executed'); // Add this line for debugging
                 alert('Logout successfully');
-
-                // Redirect to index.html
-                window.location.href = 'file:///C:/Users/HP/Desktop/yoga website/index.html';
+                window.location.replace('file:///C:/Users/HP/Desktop/yoga website/index.html');
             }
         });
     </script>
